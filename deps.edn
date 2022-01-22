@@ -3,5 +3,6 @@
   com.taoensso/nippy {:mvn/version "3.1.1"}
   }
  :aliases
- {:test {:deps {midje :mvn/version "1.10.5"}}}
+ {:test {:deps 
+         {midje {:mvn/version "1.10.5"}}}
  }
