@@ -4,5 +4,5 @@
   }
  :aliases
  {:test {:deps 
-         {midje {:mvn/version "1.10.5"}}}
- }
+         {midje/midje {:mvn/version "1.10.5"}}
+         :extra-paths ['test']}}}
